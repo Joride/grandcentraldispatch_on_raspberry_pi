@@ -4,10 +4,10 @@ model name (as obtained from /proc/cpuinfo): ARMv6-compatible processor rev 7 (v
 
 
 ## Install the following packages:
-sudo apt-get install llvm
-sudo apt-get install clang
-sudo apt-get install libblocksruntime-dev
-sudo apt-get install libdispatch-dev
+sudo apt-get install llvm  
+sudo apt-get install clang  
+sudo apt-get install libblocksruntime-dev  
+sudo apt-get install libdispatch-dev  
 
 ## To use blocks, build with the clang compiler (maybe gcc would work, didn't test)  and specify these two options:
 `-fblocks` `-lBlocksRuntime`
